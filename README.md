@@ -1,15 +1,22 @@
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/glsalierno/pubchem-toxinfo-cas-retriever/blob/main/LICENSE)
+[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
+
 # PubChem Toxicological Info Retriever by CAS
 
 Asynchronous Python script to retrieve toxicological information, IUPAC names, SMILES, synonyms, names, and literature references from PubChem for CAS numbers using PUG REST API. Exports to JSON/Excel.
 
-## Files
-- `get_toxinfo_by_cas6.py`: Main Python script for fetching and exporting data.
+## Key Features
+- Asynchronous fetching for efficient batch processing.
+- Extracts tox data, IUPAC/SMILES, synonyms, and literature refs.
+- Handles retries for API errors; exports to formatted JSON and Excel.
+- Interactive or command-line input.
 
 ## Requirements
-- **Python 3.x**: With `aiohttp` (`pip install aiohttp`), `openpyxl` (`pip install openpyxl`).
+- Python 3.x
+- Install dependencies: `pip install aiohttp openpyxl`
 
 ## Usage
-Run the script with CAS numbers as arguments for batch processing:'
+Run with CAS numbers for batch processing:
 
 > > python get_toxinfo_by_cas6.py 50-00-0 64-17-5
 
@@ -29,12 +36,24 @@ Run the script with CAS numbers as arguments for batch processing:'
 
 >Please check the JSON and Excel files for the retrieved data.
 
-Or run without arguments for interactive input (enter CAS one per line, blank to finish).
+Or run without arguments for interactive mode (enter CAS one per line, blank to finish).
+
+## Files
+- `get_toxinfo_by_cas6.py`: Main script for data retrieval and export.
+
+## Contributing
+Fork the repo, create a feature branch, and submit a pull request. Follow PEP8 style. Report issues via GitHub Issues.
 
 ## Notes
 - Complies with PubChem API terms (add pauses for large batches).
 - Handles retries for transient errors.
 - For issues, open a GitHub issue.
+
+Author: glsalierno  
+Date: September 2025  
+GitHub: [glsalierno](https://github.com/glsalierno)
+
+Last Updated: September 01, 2025
 
 Author: glsalierno  
 Date: September 2025  
