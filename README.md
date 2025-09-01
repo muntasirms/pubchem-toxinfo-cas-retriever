@@ -38,8 +38,16 @@ Run with CAS numbers for batch processing:
 
 Or run without arguments for interactive mode (enter CAS one per line, blank to finish).
 
+### MATLAB
+The MATLAB wrapper calls the Python script and parses the JSON output into a table:
+
+```matlab
+toxTable = getToxInfo({'50-00-0', '64-17-5'});
+% Outputs a table with tox data; Python script runs in background.
+
 ## Files
 - `get_toxinfo_by_cas6.py`: Main script for data retrieval and export.
+- getToxInfo.m: MATLAB wrapper function.
 
 ## Contributing
 Fork the repo, create a feature branch, and submit a pull request. Follow PEP8 style. Report issues via GitHub Issues.
