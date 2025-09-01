@@ -43,7 +43,7 @@ The MATLAB wrapper calls the Python script and parses the JSON output into a tab
 
 ```matlab
 toxTable = getToxInfo({'50-00-0', '64-17-5'});
-% Outputs a table with tox data; Python script runs in background.
+% Outputs a table with tox data; Python script runs in background.```
 
 ## Files
 - `get_toxinfo_by_cas6.py`: Main script for data retrieval and export.
