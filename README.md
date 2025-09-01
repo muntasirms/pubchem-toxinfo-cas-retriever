@@ -12,7 +12,8 @@ Asynchronous Python script to retrieve toxicological information, IUPAC names, S
 Run the script with CAS numbers as arguments for batch processing:'
 
 > python get_toxinfo_by_cas.py 50-00-0 64-17-5
-Fetching data for 2 CAS numbers...
+
+>Fetching data for 2 CAS numbers...
 Processing CAS 50-00-0
 Processing CAS 64-17-5
 Found CID 712 for CAS 50-00-0
