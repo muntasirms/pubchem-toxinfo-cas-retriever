@@ -44,25 +44,10 @@ The MATLAB wrapper calls the Python script and parses the JSON output into a tab
 ```matlab
 >> toxTable = >> getToxInfo({'50-00-0', '64-17-5'});
 Processed 2 compounds. Table has 2 rows.
-
->> getToxInfo('50-00-0')
-Processed 1 compounds. Table has 1 rows.
-
-ans =
-
-  1×8 table
-
-        CAS        PubChemCID         IUPAC          SMILES        Names          Synonyms      LiteratureReferences     ToxData  
-    ___________    __________    ________________    _______    ____________    ____________    ____________________    __________
-
-    {'50-00-0'}       712        {'formaldehyde'}    {'N/A'}    {0×0 double}    {0×0 double}         1×1 struct         1×1 struct
 ```
 ## Files
 - `get_toxinfo_by_cas6.py`: Main script for data retrieval and export.
 - getToxInfo.m: MATLAB wrapper function.
-
-## Contributing
-Fork the repo, create a feature branch, and submit a pull request. Follow PEP8 style. Report issues via GitHub Issues.
 
 ## Notes
 - Complies with PubChem API terms (add pauses for large batches).
