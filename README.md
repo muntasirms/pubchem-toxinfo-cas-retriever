@@ -52,9 +52,3 @@ Fork the repo, create a feature branch, and submit a pull request. Follow PEP8 s
 Author: glsalierno  
 Date: September 2025  
 GitHub: [glsalierno](https://github.com/glsalierno)
-
-Last Updated: September 01, 2025
-
-Author: glsalierno  
-Date: September 2025  
-GitHub: [glsalierno](https://github.com/glsalierno)
