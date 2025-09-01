@@ -3,7 +3,7 @@
 Asynchronous Python script to retrieve toxicological information, IUPAC names, SMILES, synonyms, names, and literature references from PubChem for CAS numbers using PUG REST API. Exports to JSON/Excel.
 
 ## Files
-- `get_toxinfo_by_cas.py`: Main Python script for fetching and exporting data.
+- `get_toxinfo_by_cas6.py`: Main Python script for fetching and exporting data.
 
 ## Requirements
 - **Python 3.x**: With `aiohttp` (`pip install aiohttp`), `openpyxl` (`pip install openpyxl`).
@@ -11,7 +11,7 @@ Asynchronous Python script to retrieve toxicological information, IUPAC names, S
 ## Usage
 Run the script with CAS numbers as arguments for batch processing:'
 
-> > python get_toxinfo_by_cas.py 50-00-0 64-17-5
+> > python get_toxinfo_by_cas6.py 50-00-0 64-17-5
 
 >Fetching data for 2 CAS numbers...
 
