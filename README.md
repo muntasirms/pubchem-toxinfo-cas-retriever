@@ -18,7 +18,7 @@ Fork of @glsalierno 's pubchem toxicity info scraper. This fork retains the asyn
 
 ## Requirements
 - Python 3.x
-- Install dependencies: `pip install aiohttp openpyxl`
+- Install dependencies: `pip install aiohttp pandas`
 
 ## Usage
 Input CSV with a column named "CAS" and input csv filepath and output filepath:
