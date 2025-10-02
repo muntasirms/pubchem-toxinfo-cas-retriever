@@ -11,7 +11,7 @@ Fork of @glsalierno 's pubchem toxicity info scraper. This fork retains the asyn
 - Denotes chemicals with lack of hazard information with "No data found"
 - Removed matlab functionality
 - Exports to identical csv with two additional columns containing hazards and precautions
-- Extracts toxicity data using regex "H/d/d/d" and "P/d/d/d" - mildly fragile but cleanly extracts codes.
+- Extracts toxicity data using regex "H/d/d/d" and "P/d/d/d" rather than json - mildly fragile but cleanly extracts codes.
 
 ## Retained Key Features
 - Asynchronous fetching for efficient batch processing
