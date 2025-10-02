@@ -10,11 +10,12 @@ Fork of @glsalierno 's pubchem toxicity info scraper. This fork retains the asyn
 - Retained asyncio asynchronous fetching, but added the ability to define batch size
 - Denotes chemicals with lack of hazard information with "No data found"
 - Removed matlab functionality
+- Exports to identical csv with two additional columns containing hazards and precautions
 
 ## Retained Key Features
 - Asynchronous fetching for efficient batch processing
-- Extracts tox data
-- Handles retries for API (CID retrieval) errors; exports to identical csv with two additional column .
+- Extracts tox data as hazard H-code and precaution P-code for easy tabular qualitative hazard retrieval
+- Handles retries for API (CID retrieval) errors.
 
 ## Requirements
 - Python 3.x
