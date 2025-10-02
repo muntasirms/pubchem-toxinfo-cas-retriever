@@ -3,7 +3,7 @@
 
 # PubChem Toxicological Info Retriever by CAS
 
-Fork of @glsalierno 's pubchem toxicity info scraper. This fork retains the asyncronous API calls but focuses solely on extracting H-code hazard statements and P-code precautionary statements into two new comma delimited columns of each for future programmatic screening of chemical safety.
+Fork of [@glsalierno](https://github.com/glsalierno)'s pubchem toxicity info scraper adjusted with inspiration from [@chadr1989](https://github.com/chadr1989/GHS-codes-from-CAS-numbers/tree/main). This fork retains the asyncronous API calls but focuses solely on extracting H-code hazard statements and P-code precautionary statements into two new comma delimited columns of each for future programmatic screening of chemical safety.
 
 ## New features
 - Removed openpyxl in favor of pandas only csv handling
