@@ -26,7 +26,7 @@ Fork of @glsalierno 's pubchem toxicity info scraper. This fork retains the asyn
 Input CSV with a column named "CAS" and input csv filepath and output filepath:
 
 ```python
-input_csv = "yourChemicalInputs.csv"
+input_csv = "your_chemical_inputs.csv"
 output_csv = "chemicals_with_ghs.csv"
 ```
 
@@ -38,7 +38,7 @@ Example input CSV format should be:
 | Ethanol       | 64-17-5    | Example info   | ... |
 
 
-and output format will be:
+and in such a case, the output format will be:
 
 | Name          | CAS        | Other Data      | ... | Hazards | Precautions |
 |---------------|------------|----------------|-----|------|-------|
